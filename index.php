@@ -34,7 +34,7 @@
             <div class="form-group">
               <input type="email" class="form-control centerBlock" aria-describedby="emailHelp" placeholder="Email Address">
             </div>
-            <button type="button" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
+            <button type="submit" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
               Subscribe
             </button>
 
