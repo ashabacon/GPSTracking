@@ -24,7 +24,10 @@ $range = 'Sheet1'; // Sheet name
 $valueRange= new Google_Service_Sheets_ValueRange();
 $valueRange->setValues(["values" => ["a", "b"]]); // values for each cell
 $valueRange->setValues(["values" => [
-    $_POST["email"]
+    $_POST["name"]
+  , $_POST["email"]
+  , $_POST["position"]
+  , $_POST["phone"]
   , date("F j, Y, g:i a", time()) 
 ]]);
 
