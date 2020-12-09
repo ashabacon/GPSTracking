@@ -25,43 +25,41 @@
       </div>
     </div>
     <div class="row">
-    <div class="col-md-5">
-      <div class="info">
-        <h1 class="centerBlock">Coming Soon: Powerful new GPS trackers for small to mid-size fleets.</h1>
-        <img class="truck" src="https://www.gpstracking.com/wp-content/uploads/2020/11/truck.png" alt="GPS Tracking Logo" style="max-height: 300px">
-        <p class="centerBlock">Please join our list for the latest product launch information.</p>
-        <form class="centerBlock">
-          <div class="form-group">
-            <input type="email" class="form-control centerBlock" aria-describedby="emailHelp" placeholder="Email Address">
-          </div>
-          <!-- <button type="submit" class="centerBlock">Subscribe</button> -->
-<!-- Button trigger modal -->
-          <button type="button" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
-            Subscribe
-          </button>
+      <div class="col-md-5">
+        <div class="info">
+          <h1 class="centerBlock">Coming Soon: Powerful new GPS trackers for small to mid-size fleets.</h1>
+          <img class="truck" src="https://www.gpstracking.com/wp-content/uploads/2020/11/truck.png" alt="GPS Tracking Logo" style="max-height: 300px">
+          <p class="centerBlock">Please join our list for the latest product launch information.</p>
+          <form action="/post2sheet.php" method="post" class="centerBlock">
+            <div class="form-group">
+              <input type="email" class="form-control centerBlock" aria-describedby="emailHelp" placeholder="Email Address">
+            </div>
+            <button type="button" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
+              Subscribe
+            </button>
 
-          <!-- Modal -->
-          <div class="modal fade" id="subscribeModalCenter" tabindex="-1" role="dialog" aria-labelledby="subscribeModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <div class="modal-title" id="exampleModalLongTitle">
-                    <h2 style="display:inline-block;">✔️</h2><h2 class="notify" style="display:inline-block;">&nbsp;Subscribed!</h2>
+            <!-- Modal -->
+            <div class="modal fade" id="subscribeModalCenter" tabindex="-1" role="dialog" aria-labelledby="subscribeModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="modal-title" id="exampleModalLongTitle">
+                      <h2 style="display:inline-block;">✔️</h2><h2 class="notify" style="display:inline-block;">&nbsp;Subscribed!</h2>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <h5>Thank you for subscribing to our GPS Tracking. We hope to see you around!</h5>
+                  <div class="modal-body">
+                    <h5>Thank you for subscribing to our list!</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="col-md-7">
+      <div class="col-md-7">
         <div class="image">
           <img class="phone_pic" src="images/cropped_phone.png" alt="Cropped Phone Image" style="width: 100%;">
         </div>
